@@ -1,2 +1,122 @@
+body {
+    background-color: hsl(0, 0%, 95%);
+}
+
+h2 {
+    color:  hsl(0, 0%, 95%);
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 700;
+}
+
+p {
+    color:hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca', sans-serif;
+    padding-bottom: 15px;
+    font-weight: 400;
+}
+
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.sedan {
+    background-color: hsl(31, 77%, 52%);
+    padding: 3rem;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.suv {
+    background-color: hsl(184, 100%, 22%);
+    padding: 3rem;
+}
+
+.luxury {
+    background-color: hsl(179, 100%, 13%);
+    padding: 3rem;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.btn {
+    border-radius: 25px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    color: hsl(31, 77%, 52%);
+    font-size: 20px;
+    background: hsl(0, 0%, 95%);
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    border: none;
+
+  }
+
+  .btn1 {
+    border-radius: 25px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    color: hsl(184, 100%, 22%);
+    font-size: 20px;
+    background: hsl(0, 0%, 95%);
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    border: none;
+  }
+
+  .btn2 {
+    border-radius: 25px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    color: hsl(179, 100%, 13%);
+    font-size: 20px;
+    background: hsl(0, 0%, 95%);
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    border: none;
+  }
+  
+  .btn:hover {
+    background: hsl(31, 77%, 52%);
+    color:hsl(0, 0%, 95%);
+    border: 2px solid hsl(0, 0%, 95%);
+    text-decoration: none;
+  }
+
+  .btn1:hover {
+    background: hsl(184, 100%, 22%);
+    color:hsl(0, 0%, 95%);
+    border: 2px solid hsl(0, 0%, 95%);
+    text-decoration: none;
+  }
+
+  .btn2:hover {
+    background: hsl(179, 100%, 13%);
+    color:hsl(0, 0%, 95%);
+    border: 2px solid hsl(0, 0%, 95%);
+    text-decoration: none;
+  }
+
+  @media (min-width: 1440px) {
+    .flex-container {
+        flex-direction: row;
+    }
+  }
+
+  @media (min-width: 1440px) {
+    .sedan {
+        border-top-left-radius: 20px;
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 20px;
+    }
+  }
+
+  @media (min-width: 1440px) {
+    .luxury {
+        border-top-right-radius: 20px;
+        border-bottom-left-radius: 0px;
+    }
+  }
